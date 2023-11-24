@@ -10,12 +10,6 @@ it("sucessful login",async()=>{
     await browser.getTitle()
     await expect(browser).toHaveTitleContaining("ProtoCommerce")
     await expect( $(".btn-primary")).toExist()
-
-
-   
-
-
-
 })
 
 })
